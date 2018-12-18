@@ -1,0 +1,162 @@
+body{background: #eee;}
+
+.main-div{background: white;}
+
+.top-div{height: 95px; border-bottom:3px solid #eee;}
+
+.top-standing-div{padding-right: 0px;}
+
+
+
+
+.img-one{background:url('../images/one.png') center center;background-size:cover;}
+.img-two {background:url('../images/two.png') center center;background-size:cover;}
+.img-three {background:url('../images/three.png') center center;background-size:cover;}
+.img-four{background:url('../images/four.png') center center;background-size:cover;}
+.img-five{background:url('../images/five.png') center center;background-size:cover;}
+.img-six{background:url('../images/six.png') center center;background-size:cover;}
+.img-seven{background:url('../images/seven.png') center center;background-size:cover;}
+.img-eight{background:url('../images/eight.png') center center;background-size:cover;}
+
+
+.profile-pic-one{background:url('../images/ca.jpg') center center;background-size:cover;}
+.profile-pic-two{background:url('../images/xs.jpg') center center;background-size:cover;}
+.profile-pic-three{background:url('../images/dd.jpg') center center;background-size:cover;}
+.profile-pic-four{background:url('../images/ca.jpg') center center;background-size:cover;}
+.profile-pic-five{background:url('../images/s.jpg') center center;background-size:cover;}
+.profile-pic-six{background:url('../images/s.jpg') center center;background-size:cover;}
+.profile-pic-seven{background:url('../images/xs.jpg') center center;background-size:cover;}
+.profile-pic-eight{background:url('../images/dd.jpg') center center;background-size:cover;}
+
+
+
+.notification-badge,.my-notification-badge{
+ color: white;
+ display: block;
+ height: 20px;
+ width: 20px;
+ border-radius: 50%;
+ text-align: center;
+ float: right;
+ top: 60%;
+ left: 100%;
+ position: relative;
+ right: 30px;
+}
+
+
+
+
+.notification-badge{background:black;}
+.my-notification-badge{background:#007bff;}
+.nimg{height: 90px;}
+.mt-4{
+   height: 60px;
+   width: 60px;
+   margin: 0 auto;
+   border-radius: 50%;
+   border:3px solid black;
+ }
+
+.my-notification-div{
+   height: 60px;
+   width: 60px;
+   margin: 0 auto;
+   border-radius: 50%;
+   border:3px solid #007bff;
+ }
+
+.tab{
+   height: 39px;
+   position: absolute;
+   display: inline-block;
+   width: 60px;
+   padding-left:4px;
+   padding-right: 4px;
+ }
+
+.tab0{border-bottom: 5px solid #007bff;}
+.primary-div{padding: 0px;border:1px solid #eee;margin-left: 15px;}
+.secondary-div{padding: 0px;margin-left: 10px;border:1px solid #eee;}
+.name{height: 50px;padding: 0px;}
+
+@media screen and (max-width: 600px) {
+  .tab1{left: 40%;}
+
+  .tab2{left:70%;}
+  .nimg{
+    margin-left: -15px;
+    height: 80px;
+    width: 100px;
+  }
+
+  .profile-pic{
+    position: absolute;
+    top: -20%;
+    left: 35%;
+  }
+
+  .name{
+    position: absolute;
+    top: 10%;
+    left:28%;
+  }
+
+  .primary-div{margin-left: 10px;}
+  .top5{margin-left: -15px;}
+  .sm{margin-top: 10px;}
+}
+
+@media screen and (min-width: 601px)  and (max-width: 767px){
+  .nimg{
+    margin-left: 0px;
+    height: 80px;
+    width: 100px;
+  }
+
+  .profile-pic{
+    position: absolute;
+    top: -20%;
+    left: 35%;
+  }
+  .name{
+    position: absolute;
+    top: 10%;
+    left:28%;
+  }
+  .primary-div{margin-left: 10px;}
+  .top5{margin-left: -15px;}
+  .sm{margin-top: 10px;}
+}
+
+
+@media screen and (min-width: 768px)  and (max-width: 991px){
+
+  .top-standing-div-row{width: 250%;}
+  .my-standing-div-row{width: 150%;}
+
+  .primary-div{
+    width: 50px;
+    margin-left: 10px;
+  }
+  .nimg
+  {
+    margin-left: 0px;
+    height: 80px;
+    width: 100px;
+  }
+
+  .profile-pic
+  {
+    position: absolute;
+    top: -20%;
+    left: 35%;
+  }
+  .name
+  {
+    position: absolute;
+    top: 10%;
+    left:28%;
+  }
+
+}
